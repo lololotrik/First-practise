@@ -7,18 +7,18 @@ using namespace std;
 
 int main(){
 	setlocale(LC_ALL, "RUS");
-	cout << "Çàäàíèå 1 \n";
-	cout << "int: " << sizeof(int) << " áàéò \n"
-		<< "short int: " << sizeof(short int) << " áàéò \n"
-		<< "long long int: " << sizeof(long long int) << " áàéò\n"
-		<< "float: " << sizeof(float) << " áàéò \n"
-		<< "double: " << sizeof(double) << " áàéò \n"
-		<< "long double: " << sizeof(long double) << " áàéò \n"
-		<< "char: " << sizeof(char) << " áàéò \n"
-		<< "bool: " << sizeof(bool) << " áàéò \n";
+	cout << "Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 1 \n";
+	cout << "int: " << sizeof(int) << " Ð±Ð°Ð¹Ñ‚ \n"
+		<< "short int: " << sizeof(short int) << " Ð±Ð°Ð¹Ñ‚ \n"
+		<< "long long int: " << sizeof(long long int) << " Ð±Ð°Ð¹Ñ‚\n"
+		<< "float: " << sizeof(float) << " Ð±Ð°Ð¹Ñ‚ \n"
+		<< "double: " << sizeof(double) << " Ð±Ð°Ð¹Ñ‚ \n"
+		<< "long double: " << sizeof(long double) << " Ð±Ð°Ð¹Ñ‚ \n"
+		<< "char: " << sizeof(char) << " Ð±Ð°Ð¹Ñ‚ \n"
+		<< "bool: " << sizeof(bool) << " Ð±Ð°Ð¹Ñ‚ \n";
 	
 	{
-		cout << "Çàäàíèå 2 \n";
+		cout << "Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 2 \n";
 		int value;
 		cin >> value;
 		unsigned int order = 32;
@@ -40,7 +40,7 @@ int main(){
 	}
 
 	{
-		cout << "Çàäàíèå 3 \n";
+		cout << "Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 3 \n";
 		union {
 			int value;
 			float num = 1028;
@@ -64,7 +64,7 @@ int main(){
 		cout << endl;
 	}
 	{
-		cout << "Çàäàíèå 4 \n";
+		cout << "Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 4 \n";
 		union {
 			long long int value;
 			double num = 1028;
@@ -88,11 +88,11 @@ int main(){
 		cout << endl;
 	}
 	{
-		cout << "ÈÄÇ-6 \n";
+		cout << "Ð˜Ð”Ð—-6 \n";
 		int num, n;
-		cout << "Ââåäèòå ÷èñëî: \n";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: \n";
 		cin >> num;
-		cout << "Ââåäèòå áèò ñ êîòîðîãî íóæíî íà÷àòü\n";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð±Ð¸Ñ‚ Ñ ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ð½ÑƒÐ¶Ð½Ð¾ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ\n";
 		cin >> n;
 		for (int i = 1; n >= 0; --n) 
 		{
